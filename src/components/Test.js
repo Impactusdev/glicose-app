@@ -50,7 +50,7 @@ const Test = () => {
     <div className='flex flex-col items-center w-[100%] h-[100%] rounded-xl py-10 px-5 bg-white relative'>
       <div className='absolute top-0 rounded-t-xl h-[20px] w-full' style={{backgroundColor: corMensagem}}/>
       <div className='flex flex-col items-center justify-center py-4 w-full'>
-        <div className='flex items-center justify-center w-[90px] h-[90px] border-4 rounded-full text-4xl font-bold' style={{borderColor: corMensagem, color: corMensagem}}>
+        <div className='flex items-center justify-center w-[70px] h-[70px] border-4 rounded-full text-4xl font-bold' style={{borderColor: corMensagem, color: corMensagem}}>
           {emoji}
         </div>
         <p className='pb-4 pt-2' style={{color: corMensagem}}>{aviso}</p>

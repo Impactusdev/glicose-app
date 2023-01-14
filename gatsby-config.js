@@ -6,5 +6,5 @@ module.exports = {
     title: `Aplicativo Glicose`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-postcss"]
+  plugins: ["gatsby-plugin-postcss", 'gatsby-plugin-react-helmet']
 };
